@@ -1,4 +1,4 @@
-# from collections import namedtuple
+from collections import namedtuple
 # #
 # # User = namedtuple("User","id name lastname age email")
 # # users = [
@@ -19,5 +19,11 @@
 # ca = Car(*car)
 # print(*ca)
 
+Book = namedtuple("Book","avtor name rangi varoqlar_soni")
 
+book = ("Imomi Zarnujiy","Ilim olish sirlar","qizil","66 bet")
+
+bo = Book(*book)
+
+print(*bo)
 
